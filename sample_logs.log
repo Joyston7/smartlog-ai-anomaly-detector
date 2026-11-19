@@ -1,0 +1,20 @@
+2026-11-19 09:00:01 INFO Application started successfully
+2026-11-19 09:00:03 INFO Database connection established
+2026-11-19 09:00:05 INFO Health check passed
+2026-11-19 09:00:08 INFO GET /api/products 200 response_time=42ms
+2026-11-19 09:00:10 INFO User session created
+2026-11-19 09:00:13 INFO GET /api/orders 200 response_time=51ms
+2026-11-19 09:00:16 DEBUG Cache lookup completed
+2026-11-19 09:00:20 INFO Background worker heartbeat
+2026-11-19 09:00:24 INFO GET /api/profile 200 response_time=38ms
+2026-11-19 09:00:28 INFO Database query completed
+2026-11-19 09:00:32 INFO Health check passed
+2026-11-19 09:00:35 INFO GET /api/products 200 response_time=45ms
+2026-11-19 09:00:40 WARNING API latency increased response_time=1800ms
+2026-11-19 09:00:41 ERROR Database connection timeout after 30000ms
+2026-11-19 09:00:42 ERROR Database connection timeout after 30000ms
+2026-11-19 09:00:43 CRITICAL Database unavailable connection pool exhausted
+2026-11-19 09:00:44 ERROR GET /api/orders 503 service unavailable
+2026-11-19 09:00:47 WARNING Retry queue backlog growing rapidly
+2026-11-19 09:00:50 INFO Database connection restored
+2026-11-19 09:00:53 INFO Health check passed
